@@ -69,7 +69,7 @@ print(Y_pred1)
 OUTPUT:
 
 C:\Users\SEC\Pictures\head.png
-C:\Users\SEC\Pictures\array.png
+
 
 
 RESULT:
