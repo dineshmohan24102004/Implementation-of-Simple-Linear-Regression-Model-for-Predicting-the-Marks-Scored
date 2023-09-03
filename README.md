@@ -59,10 +59,6 @@ print('MAE = ',mae)
 rmse=np.sqrt(ms)
 print("RMSE = ",rmse)
 
-a=np.array([[10]])
-Y_pred1=reg.predict(a)
-print(Y_pred1)
-
 
 
 
