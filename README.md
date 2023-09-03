@@ -69,6 +69,7 @@ C:\Users\SEC\Pictures\head.png
 
 
 RESULT:
+
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
 
 
