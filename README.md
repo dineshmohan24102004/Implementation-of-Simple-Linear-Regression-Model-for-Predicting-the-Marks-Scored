@@ -70,10 +70,6 @@ OUTPUT:
 
 C:\Users\SEC\Pictures\head.png
 C:\Users\SEC\Pictures\array.png
-C:\Users\SEC\Pictures\number.png
-C:\Users\SEC\Pictures\training .png
-C:\Users\SEC\Pictures\test.png
-C:\Users\SEC\Pictures\mean square.png
 
 
 RESULT:
