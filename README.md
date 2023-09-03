@@ -17,75 +17,49 @@ Program:
 
 /*
 Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: PRAVINRAJJ GK
-RegisterNumber:  212222240080
+Developed by: DINESH.M
+RegisterNumber:  212222040039
 */
 
+import numpy as np # Supervised Learning
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt 
-from sklearn.metrics import mean_absolute_error, mean_squared_error
-df=pd.read_csv('/content/csv.csv')
-df.head()
-X=df.iloc[:,:-1].values
-X
-Y=df.iloc[:,-1].values
-Y
-from sklearn.model_selection import train_test_split
-X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=1/3,random_state=0)
+from sklearn.metrics import mean_absolute_error,mean_squared_error
+import matplotlib.pyplot as plt
+dataset = pd.read_csv('student_scores.csv')
+print(dataset.head()) # top rows read
+print(dataset.tail()) # bottom rows read
+
+X = dataset.iloc[:,:-1].values # need all rows but no need last column ( Independent var)
+print(X)
+Y = dataset.iloc[:,-1].values # Extracating Y values (Dependent Var)
+print(Y)
+
+
+from sklearn.model_selection import train_test_split # sklearn is a package
+X_train,X_test,Y_train,Y_test = train_test_split(X,Y,test_size =1/3,random_state=0)
+# Common code for any ML model
 from sklearn.linear_model import LinearRegression
-regressor=LinearRegression()
-regressor.fit(X_train,Y_train)
-Y_pred=regressor.predict(X_test)
-plt.scatter(X_train,Y_train,color="orange")
-plt.plot(X_train,regressor.predict(X_train),color="red")
-plt.title("Hours vs Scores (Training Set)")
+reg = LinearRegression()
+# reg is a object
+reg.fit(X_train,Y_train)
+# Creating a model y=mx+c
+Y_pred = reg.predict(X_test)# Checking the model (testing the model with inputdata only to check whether it predicts correctly)
+print(Y_pred)
+print(Y_test)
+
+
+plt.scatter(X_train,Y_train,color ="green")
+plt.plot(X_train,reg.predict(X_train),color ="red")
+# draws a straight redline
+plt.title('training set(H vs S)')
 plt.xlabel("Hours")
 plt.ylabel("Scores")
 plt.show()
-plt.scatter(X_test,Y_test,color="red")
-plt.plot(X_test,regressor.predict(X_test),color="blue")
-plt.title("Hours vs Scores (Training Set)")
+plt.scatter(X_test,Y_test,color ="blue")
+plt.plot(X_test,reg.predict(X_test),color ="silver")
+plt.title('test set(H vs S)')
 plt.xlabel("Hours")
-plt.ylabel("Scores")
-plt.show()
-mse=mean_squared_error(Y_test,Y_pred)
-print('MSE = ',mse)
 
-mae=mean_absolute_error(Y_test,Y_pred)
-print('MAE = ',mae)
 
-rmse=np.sqrt(mse)
-print("RMSE = ",rmse)
 
-Output:
-df.head()
 
-image
-df.tail()
-
-image
-X
-
-image
-Y
-
-image
-PREDICTED Y VALUES
-
-image
-Actual Values
-
-image
-Train graph
-
-image
-Test graph
-
-image
-MEAN SQUARE ERROR, MEAN ABSOLUTE ERROR AND RMSE
-
-image
-Result:
-
-Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
