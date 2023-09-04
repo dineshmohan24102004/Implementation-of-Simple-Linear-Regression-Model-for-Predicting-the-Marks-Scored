@@ -63,15 +63,21 @@ print("RMSE = ",rmse)
 
 
 OUTPUT:
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/53cff795-aacf-49b9-9bab-a61ae8a908e4)
 
-C:\Users\SEC\Downloads\hours.png
-C:\Users\SEC\Downloads\array.png
-C:\Users\SEC\Downloads\numbers.png
-C:\Users\SEC\Downloads\training.png
-C:\Users\SEC\Downloads\test.png
-C:\Users\SEC\Downloads\result.png
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/efcee398-cdd7-4b7a-aea4-b1a5af1df26a)
 
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/e884621c-8b1b-4187-a245-8d7f582d57bf)
 
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/1d1cb591-fb1f-462c-ab72-9f908113c281)
+
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/6f4d0b61-a214-4b1a-acb8-cb052679f066)
+
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/e163dde0-468e-4637-8545-74d2e8778c2e)
+
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/b66bf198-7ade-4499-831f-d90f616be3f4)
+
+![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/74b7f44b-61c4-4f0b-9ae0-d830e8b09a88)
 
 RESULT:
 
