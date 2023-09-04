@@ -64,7 +64,12 @@ print("RMSE = ",rmse)
 
 OUTPUT:
 
-C:\Users\SEC\Pictures\head.png
+C:\Users\SEC\Downloads\hours.png
+C:\Users\SEC\Downloads\array.png
+C:\Users\SEC\Downloads\numbers.png
+C:\Users\SEC\Downloads\training.png
+C:\Users\SEC\Downloads\test.png
+C:\Users\SEC\Downloads\result.png
 
 
 
