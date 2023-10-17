@@ -19,7 +19,6 @@ Program:
 Developed by: DINESH.M
 RegisterNumber:  212222040039
 
-
 import pandas as pd
 df= pd.read_csv('/content/student_scores.csv')
 df.info()
@@ -46,8 +45,6 @@ print(x_train)
 print(x_test)
 print(y_train)
 print(y_test)
-
-
 
 from sklearn.linear_model import LinearRegression
 reg=LinearRegression()
@@ -81,7 +78,6 @@ print("RMSE = ",rmse)
 a=np.array([[10]])
 y_pred1=reg.predict(a)
 print(y_pred1)
-
 
 
 
