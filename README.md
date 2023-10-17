@@ -1,17 +1,20 @@
 AIM:
 
 To write a program to predict the marks scored by a student using the simple linear regression model.
+
 Equipments Required:
 
-    Hardware – PCs
-    Anaconda – Python 3.7 Installation / Jupyter notebook
+1. Hardware – PCs
+2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 Algorithm
 
-    import pandas numpy and matplotlib
-    Upload a file that contains the required data
-    find x,y using sklearn
-    Use line chart and disply the graph and print the mse, mae,rmse
+1.Import the standard Libraries.
+2.Set variables for assigning dataset values.
+3.Import linear regression from sklearn.
+4.Assign the points for representing in the graph
+5.Predict the regression for marks by using the representation of the graph.
+6.Compare the graphs and hence we obtained the linear regression for the given datas.
 
 Program:
 
