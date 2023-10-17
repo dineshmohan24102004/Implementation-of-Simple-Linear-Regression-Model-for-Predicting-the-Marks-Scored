@@ -2,6 +2,7 @@ AIM:
 
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
+
 Equipments Required:
 
 1. Hardware – PCs
