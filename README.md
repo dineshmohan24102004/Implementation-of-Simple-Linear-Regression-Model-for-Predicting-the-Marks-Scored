@@ -1,21 +1,20 @@
 
-Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
+## Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored
 
 
 
 
-
-AIM:
+## AIM:
 
 To write a program to predict the marks scored by a student using the simple linear regression model.
 
 
-Equipments Required:
+## Equipments Required:
 
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
-Algorithm
+## Algorithm
 
 1.Import the standard Libraries.
 
@@ -29,8 +28,8 @@ Algorithm
 
 6.Compare the graphs and hence we obtained the linear regression for the given datas.
 
-Program:
-
+## Program:
+```
 
 Developed by: DINESH.M
 RegisterNumber:  212222040039
@@ -95,11 +94,11 @@ a=np.array([[10]])
 y_pred1=reg.predict(a)
 print(y_pred1)
 
+```
 
 
 
-
-OUTPUT:
+## OUTPUT:
 ![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/21a3330d-aa3b-49fb-8af4-66a62666333f)
 
 ![image](https://github.com/dineshmohan24102004/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/119478475/24d4abc0-fa8a-46be-aa90-cf22ade342d4)
